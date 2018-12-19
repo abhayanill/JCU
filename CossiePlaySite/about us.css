@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+h1 {
+	color: #000000;
+	font-size: 20px;
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif
+}
+body {
+  background-image: url("Images/Wallpaper2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+	 background-attachment: fixed;
+}
+p {
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	font-size: 20px;
+	color: #000000;
+	text-align: justify;
+}
+div.about {
+    position: absolute;
+    top: 30%;
+    left: 10px;
+    width: 60%;
+    height: 130%;
+    border-style: solid;
+	color: #000000;
+}
+div.contact {
+    position: fixed;
+    top: 30%;
+    left: 62%;
+    width: 36%;
+    height: 70%;
+    border-style:  dashed;
+	font-size: 25px;
+	text-align: justify;
+	color: #000000;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
