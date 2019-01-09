@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en"><script src="blob:https://www.w3schools.com/3b3cd7e5-280f-4b7a-9971-461a414b8597"></script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Gallery</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="CSS/w3.css">
+<style type="text/css">.video-ads{display:none!important}#player-ads{display:none!important}#watch7-sidebar-ads{display:none!important}#AdSense{display:none!important}#homepage-sidebar-ads{display:none!important}#page-container>#page>#header{display:none!important}#content #page-manager #masthead-ad{display:none!important}#body-container #page-container #video-masthead-iframe{display:none!important}#feedmodule-PRO{display:none!important}#homepage-chrome-side-promo{display:none!important}#search-pva{display:none!important}#watch-branded-actions{display:none!important}#watch-buy-urls{display:none!important}.carousel-offer-url-container{display:none!important}.promoted-videos{display:none!important}.watch-extra-info-column{display:none!important}.watch-extra-info-right{display:none!important}a[href^="http://www.youtube.com/cthru?"]{display:none!important}</style>
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+</head><body><body style="background-color:black;">
+
+<header class="w3-display-container w3-content w3-center" style="max-width:1500px">
+ <header class="w3-display-container w3-content w3-center" style="max-width:1500px">
+ <div class="mySlides w3-display-container w3-center" style="display: none;">
+    <img src="Images/BG1.jpg" style="width:100%">
+  </div>
+  <div class="mySlides w3-display-container w3-center" style="display: none;">
+    <img src="Images/BG2.jpg" style="width:100%">
+    
+  </div>
+  <div class="mySlides w3-display-container w3-center" style="display: block;">
+    <img src="Images/BG3.jpg" style="width:100%">
+  </div>
+  <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
+    <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">TCMC</h1>
+    <h5 class="w3-hide-large" style="white-space:nowrap">TCMC</h5>
+    <h3 class="w3-hide-medium w3-hide-small">GALLERY</h3>
+  </div>
+  
+  
+  <div class="w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px">
+    <a href="Home.html" class="w3-bar-item w3-button">Home</a>
+    <a href="About.html" class="w3-bar-item w3-button">About</a>
+     <a href="Gallery.html" class="w3-bar-item w3-button">Gallery</a>
+      <a href="Site.html" class="w3-bar-item w3-button">Plan</a>
+  </div>
+</header>
+
+
+<div class="w3-center w3-light-grey w3-padding-16 w3-hide-large w3-hide-medium">
+<div class="w3-bar w3-light-grey">
+  <a href="Home.html" class="w3-bar-item w3-button">Home</a>
+  <a href="About.html" class="w3-bar-item w3-button">About</a>
+     <a href="Gallery.html" class="w3-bar-item w3-button">Gallery</a>
+      <a href="Plan.html" class="w3-bar-item w3-button">Plan</a>
+</div>
+</div>
+
+<div class="w3-content w3-padding-large w3-margin-top" id="portfolio">
+
+  
+  <img src="Images/G1.jpg"  class="w3-image w3-margin-top" width="1000" height="500">
+  <img src="Images/G2.jpg"  class="w3-image w3-margin-top" width="1000" height="500">
+  <img src="Images/G3.jpg"  class="w3-image w3-margin-top" width="1000" height="500">
+  <img src="Images/G4.jpg"  class="w3-image w3-margin-top" width="1000" height="500">
+  <img src="Images/G5.jpg"  class="w3-image w3-margin-top" width="1000" height="500">
+  <img src="Images/G6.jpg"  class="w3-image w3-margin-top" width="1000" height="500">
+  
+    
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+</script>
+
+</body></html>
